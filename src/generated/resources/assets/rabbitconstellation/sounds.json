@@ -1,0 +1,18 @@
+{
+  "for_river": {
+    "subtitle": "for_river",
+    "replace": false,
+    "sounds": [
+      {
+        "name": "rabbitconstellation:for_river",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": true,
+        "attenuation_distance": 16,
+        "preload": false,
+        "type": "file"
+      }
+    ]
+  }
+}

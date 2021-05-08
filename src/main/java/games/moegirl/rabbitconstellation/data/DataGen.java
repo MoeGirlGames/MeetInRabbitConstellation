@@ -2,6 +2,7 @@ package games.moegirl.rabbitconstellation.data;
 
 import games.moegirl.rabbitconstellation.RabbitConstellation;
 import games.moegirl.rabbitconstellation.data.provider.ProviderItemModel;
+import games.moegirl.rabbitconstellation.data.provider.ProviderSounds;
 import games.moegirl.rabbitconstellation.data.provider.language.LanguageZHCN;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -18,6 +19,7 @@ public class DataGen {
 
         if (event.includeClient()) {
             generator.addProvider(new ProviderItemModel(generator, helper));
+            generator.addProvider(new ProviderSounds(generator, helper));
         }
 
         if (event.includeServer()) {

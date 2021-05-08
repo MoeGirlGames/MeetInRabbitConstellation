@@ -1,6 +1,7 @@
 package games.moegirl.rabbitconstellation;
 
 import games.moegirl.rabbitconstellation.item.ModItems;
+import games.moegirl.rabbitconstellation.sound.ModSounds;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -25,6 +26,7 @@ public class RabbitConstellation {
         bus.addListener(this::setup);
 
         new ModItems(bus);
+        new ModSounds(bus);
     }
 
     private void setup(final FMLCommonSetupEvent event) {

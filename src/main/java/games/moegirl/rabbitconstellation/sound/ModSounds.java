@@ -13,7 +13,7 @@ public class ModSounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, RabbitConstellation.MODID);
 
     public ModSounds(IEventBus bus) {
-        RabbitConstellation.getInstance().getLogger().info("Registering items.");
+        RabbitConstellation.getInstance().getLogger().info("Registering sounds.");
         SOUNDS.register(bus);
     }
 
