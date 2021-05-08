@@ -29,7 +29,7 @@ displayURL="https://github.com/MoeGirlGames/MeetInRabbitConstellation" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 #logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="Thanks Kan R. Gao for his fantastic game \"To the Moon\"." #optional
 # A text field displayed in the mod UI
 authors="QiuYuLuo, Youli's Cat" #optional
 # The description text for the mod (multi line!) (#mandatory)
