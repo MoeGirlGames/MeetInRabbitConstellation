@@ -12,6 +12,6 @@ public abstract class ProviderLanguage extends LanguageProvider {
     }
 
     public void addItemGroup(String id, String name) {
-        add("itemGroup." + modid + "." + id, name);
+        add("itemGroup." + id, name);
     }
 }
