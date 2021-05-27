@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "rabbitconstellation:models/block/paper_rabbit" }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "loader": "forge:obj",
+  "model": "rabbitconstellation:models/block/platypus.obj"
+}

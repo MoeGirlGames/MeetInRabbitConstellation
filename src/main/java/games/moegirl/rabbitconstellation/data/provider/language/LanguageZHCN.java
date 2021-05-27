@@ -16,5 +16,7 @@ public class LanguageZHCN extends ProviderLanguage {
 
         addItem(ModItems.MUSIC_DISC_FOR_RIVER, "音乐唱片");
         add("item.rabbitconstellation.music_disc_for_river.desc", "高瞰 - For River");
+
+        add("message.rabbitconstellation.1", "我从未告诉过任何人，不过……我一直以为它们都是灯塔。");
     }
 }
